@@ -10,12 +10,14 @@ sequence of one lemma, one PoS and tags, separated
 by space. Each word representation is separated
 by tabs. Ex.:
 
-`je Pron Sg Ps1 - **[TAB]** normaliser Vb Sg Ps1 Pres`
+`je Pron Sg Ps1 - [TAB] normaliser Vb Sg Ps1 Pres`
 
 Usage
 -----
 
-Train a normalization model:
+To train a normalization model, you need source (`file.tags.src`)
+and target (`file.words.trg`) files, as well as the source-to-target
+word alignment file (`file.ali`):
 
 `python3 train_bmn.py -s file.tags.src -t file.words.trg -a file.ali`
 
