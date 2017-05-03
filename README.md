@@ -16,9 +16,9 @@ trg: `I normalize`
 USAGE
 -----
 
-```python3 train_bmn.py -s file.tags.src -t file.words.trg -a file.ali```
+`python3 train_bmn.py -s file.tags.src -t file.words.trg -a file.ali`
 
-This outputs a normalization model in the pickle file ```norm_model.pkl```.
+This outputs a normalization model in the pickle file `norm_model.pkl`.
 Using the `-use-mean` argument is recommended for better runtime and performance.
 
 Apply the model to the data, given that the model is located in the working directory:
