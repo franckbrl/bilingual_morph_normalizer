@@ -10,7 +10,7 @@ sequence of one lemma, one PoS and tags, separated
 by space. Each word representation is separated
 by tabs. Ex.:
 
-`je Pron Sg Ps1 -	normaliser Vb Sg Ps1 Pres`
+`je Pron Sg Ps1 - **[TAB]** normaliser Vb Sg Ps1 Pres`
 
 Usage
 -----
